@@ -14,7 +14,7 @@ class Game:
             Troll(),
             Dragon()
         ]
-        self.monster = self.get_next_monster
+        self.monster = self.get_next_monster()
 
     def get_next_monster(self):
         try:
